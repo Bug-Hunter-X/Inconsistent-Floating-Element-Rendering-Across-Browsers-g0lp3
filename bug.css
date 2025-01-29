@@ -1,0 +1,10 @@
+The following CSS code snippet exhibits unexpected behavior in certain browsers:
+
+```css
+div {
+  width: 50%;
+  float: left;
+}
+```
+
+The issue arises when the `div` elements' combined width exceeds the container's width. In some browsers, this will cause the elements to wrap to the next line as expected. However, other browsers might display the elements overlapping or unexpectedly positioned, leading to visual inconsistencies. This is due to variations in how browsers handle floating elements when their total width surpasses the parent container's boundaries.
