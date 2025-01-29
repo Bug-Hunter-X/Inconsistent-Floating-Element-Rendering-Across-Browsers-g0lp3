@@ -1,0 +1,15 @@
+The following corrected CSS code utilizes flexbox to achieve consistent layout across different browsers:
+
+```css
+div {
+  width: 50%;
+  box-sizing: border-box; /* Ensure padding and border are included in element width */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+```
+
+By using flexbox, we ensure the elements wrap onto the next line when necessary, ensuring consistent layout across various browsers without relying on the potentially inconsistent behavior of floating elements.
